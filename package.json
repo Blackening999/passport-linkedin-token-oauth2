@@ -1,0 +1,36 @@
+{
+  "name": "passport-facebook-exchange-code",
+  "version": "0.0.0",
+  "description": "LinkedIn token authentication strategy for Passport.",
+  "author": {
+    "name": "Vladimir Katansky",
+    "email": "pointhomefinal@gmail.com",
+    "url": "http://katansky-blog.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Blackening999/passport-exchange-code"
+  },
+  "main": "./lib/passport-facebook-token",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": ["passport-exchange-code", "passport exchange code", "passport code", "passport oauth strategy code"],
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "bugs": {
+    "url": "https://github.com/Blackening999/passport-exchange-code/issues"
+  },
+  "homepage": "https://github.com/Blackening999/passport-exchange-code"
+}
