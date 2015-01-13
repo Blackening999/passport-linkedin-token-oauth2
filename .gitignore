@@ -1,0 +1,18 @@
+*~
+*#
+.DS_STORE
+.netbeans
+nbproject
+.idea
+.node_history
+
+/nbproject/
+# editors shit
+*.swp
+*.swo
+*.sublime-workspace
+*.idea
+..idea/*.xml
+.idea/**
+.project
+.divshot-cache
