@@ -28,8 +28,8 @@ accepts these credentials and calls `done` providing a user, as well as
 
 ```js
 passport.use(new LinkedinTokenStrategy({
-    clientID: FACEBOOK_APP_ID,
-    clientSecret: FACEBOOK_APP_SECRET
+    clientID: LINKEDIN_APP_ID,
+    clientSecret: LINKEDIN_APP_SECRET
   },
   function(accessToken, refreshToken, profile, done) {
     User.findOrCreate({ linkedinId: profile.id }, function (err, user) {
