@@ -1,5 +1,5 @@
 {
-  "name": "passport-facebook-exchange-code",
+  "name": "passport-linkedin-token-oauth2",
   "version": "0.0.0",
   "description": "LinkedIn token authentication strategy for Passport.",
   "author": {
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Blackening999/passport-exchange-code"
+    "url": "https://github.com/Blackening999/passport-linkedin-token-oauth2"
   },
-  "main": "./lib/passport-facebook-token",
+  "main": "./lib/passport-linkedin-token-oauth2",
   "dependencies": {
     "pkginfo": "0.2.x",
     "passport-oauth": "0.1.x"
@@ -30,7 +30,7 @@
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
   },
   "bugs": {
-    "url": "https://github.com/Blackening999/passport-exchange-code/issues"
+    "url": "https://github.com/Blackening999/passport-linkedin-token-oauth2/issues"
   },
-  "homepage": "https://github.com/Blackening999/passport-exchange-code"
+  "homepage": "https://github.com/Blackening999/passport-linkedin-token-oauth2
 }

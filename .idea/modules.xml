@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/passport-exchange-code.iml" filepath="$PROJECT_DIR$/.idea/passport-exchange-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/passport-linkedin-token-oauth2.iml" filepath="$PROJECT_DIR$/.idea/passport-linkedin-token-oauth2.iml" />
     </modules>
   </component>
 </project>
