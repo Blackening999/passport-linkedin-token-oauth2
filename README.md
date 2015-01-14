@@ -63,7 +63,7 @@ The post request to this route should include a JSON object with the keys `acces
 
 (The MIT License)
 
-Copyright (c) 2012 Vladimir Katansky
+Copyright (c) 2014 Vladimir Katansky
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

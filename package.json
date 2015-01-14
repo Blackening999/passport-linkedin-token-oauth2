@@ -1,6 +1,6 @@
 {
   "name": "passport-linkedin-token-oauth2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "LinkedIn token authentication strategy for Passport.",
   "author": {
     "name": "Vladimir Katansky",
