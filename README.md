@@ -63,8 +63,9 @@ var code = req.body.code, //authorization_code you received earlier
       '/uas/oauth2/accessToken');
 
 2) Request for OAuth access token and authenticate it (using OAuth2 library, preferred) .
+
 *Note: if you would try debug after requesting access token and before authenticating it
-you will have a very few time before it expiration (~15 sec). Consider this linkedIn policy
+you will have a very few time before it expiration (~15 sec). Consider this linkedIn policy*
 
 ```js
 oauth2.getOAuthAccessToken(code, options, function(err, access_token, refresh_token, results) {
@@ -82,7 +83,8 @@ oauth2.getOAuthAccessToken(code, options, function(err, access_token, refresh_to
 
 Or, you can try to make more classic request (without OAuth2 library).
 In this case you have to receive token first
-*Remember: you should include access_token (expires is optional) to request body before authenticating!
+
+*Remember: you should include access_token (expires is optional) to request body before authenticating!*
 
 ```js
 app.post('/auth/linkedin/token',
